@@ -13,7 +13,7 @@ export default function App() {
   const saveData = async () => {
     try {
       await AsyncStorage.setItem('@user_name', name);
-      setSavedName(name); 1
+      setSavedName(name); 
       setName('');
       Keyboard.dismiss();
       alert('Data Saved!');
